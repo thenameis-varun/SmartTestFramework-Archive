@@ -3,8 +3,8 @@ import requests
 import textwrap
 
 st.set_page_config(
-    page_title="SmartTestFramework Installer",
-    page_icon="🛠️",
+    page_title="SmartTestFramework Archive",
+    page_icon="📌",
     layout="centered"
 )
 
@@ -342,3 +342,4 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
+
