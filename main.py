@@ -240,7 +240,7 @@ quick_usage_html = textwrap.dedent("""
                                 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">b. Select the Test</div>
-    <div class="tree-content">Choose amongst the tests loaded from src\plugins\</div>
+    <div class="tree-content">Choose amongst the tests loaded from src/plugins/.</div>
   </div>
 
   <div class="usage-card mid subcard mid">
@@ -250,17 +250,17 @@ quick_usage_html = textwrap.dedent("""
 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">d. Run Test</div>
-    <div class="tree-content">Submit the job.</div>
+    <div class="tree-content">Submit the job</div>
   </div>
 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">e. Job Status</div>
-    <div class="tree-content">Track the lifecycle of jobs triggered.</div>
+    <div class="tree-content">Track the lifecycle of jobs triggered</div>
   </div>
                             
   <div class="usage-card mid subcard mid">
     <div class="tree-title">f. Log generation</div>
-    <div class="tree-content">On termination of job, logs are generated at src\logs\.</div>
+    <div class="tree-content">On termination of job, logs are generated at src/logs/.</div>
   </div>
 
   <div class="usage-card top">
@@ -275,7 +275,7 @@ quick_usage_html = textwrap.dedent("""
 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">b. Remote device mode</div>
-    <div class="tree-content">Select any combination of registered usernames and corresponding tests.</div>
+    <div class="tree-content">Select any combination of registered usernames and corresponding tests</div>
   </div>
 
 </div>
@@ -352,4 +352,5 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
+
 
