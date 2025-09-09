@@ -240,7 +240,7 @@ quick_usage_html = textwrap.dedent("""
                                 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">b. Select the Test</div>
-    <div class="tree-content">TChoose amongs the tests loaded from src\plugins\auto_detect_tests or src\plugins\tests</div>
+    <div class="tree-content">Choose amongst the tests loaded from src\plugins\</div>
   </div>
 
   <div class="usage-card mid subcard mid">
@@ -352,3 +352,4 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
+
