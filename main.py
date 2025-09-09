@@ -11,7 +11,7 @@ st.set_page_config(
 # ----- Versions -----
 versions = [
     {"id": "v0", "title": "SmartTestFramework v0", "status": "available",
-     "link": "https://github.com/thenameis-varun/SmartTestFramework/archive/refs/heads/main.zip"},
+    "link": "https://github.com/thenameis-varun/SmartTestFramework/archive/refs/heads/main.zip"},
     {"id": "v1", "title": "Version 1", "status": "coming"},
     {"id": "v2", "title": "Version 2", "status": "coming"},
     {"id": "v3", "title": "Version 3", "status": "coming"},
@@ -237,6 +237,11 @@ quick_usage_html = textwrap.dedent("""
     <div class="tree-title">ii. Auto Detect Device</div>
     <div class="tree-content">Choose amongst reachable devices, Note: Make sure the desired device is in LAN and has Openssh running</div>
   </div>
+                                
+  <div class="usage-card mid subcard mid">
+    <div class="tree-title">b. Select the Test</div>
+    <div class="tree-content">TChoose amongs the tests loaded from src\plugins\auto_detect_tests or src\plugins\tests</div>
+  </div>
 
   <div class="usage-card mid subcard mid">
     <div class="tree-title">c. AI suggestion</div>
@@ -251,6 +256,11 @@ quick_usage_html = textwrap.dedent("""
   <div class="usage-card mid subcard mid">
     <div class="tree-title">e. Job Status</div>
     <div class="tree-content">Track the lifecycle of jobs triggered.</div>
+  </div>
+                            
+  <div class="usage-card mid subcard mid">
+    <div class="tree-title">f. Log generation</div>
+    <div class="tree-content">On termination of job, logs are generated at src\logs\.</div>
   </div>
 
   <div class="usage-card top">
@@ -342,4 +352,3 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
-
